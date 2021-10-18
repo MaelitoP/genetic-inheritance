@@ -24,7 +24,6 @@
     </li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -84,19 +83,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Maël LE PETIT - [@Maelito_P](https://twitter.com/Maelito_P) - contact@maelito.fr
 
-Project Link: [https://github.com/MaelitoP/Lindenmayer](https://github.com/MaelitoP/Lindenmayer)
-
-
-
-<!-- REFERENCES -->
-## References
-* [L-system](https://fr.wikipedia.org/wiki/L-Syst%C3%A8me)
-* [P. Prusinkiewicz & A. Lindenmayer - The Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/abop/abop.pdf)
-* [JSON](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation)
+Project Link: [https://github.com/MaelitoP/genetic-inheritance](https://github.com/MaelitoP/genetic-inheritance)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/MaelitoP/Lindenmayer/blob/main/LICENSE
+[license-url]: https://github.com/MaelitoP/genetic-inheritance/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/maelitop/
-[product-screenshot]: lindenmayer-tree.png
