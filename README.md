@@ -3,8 +3,8 @@
 
 <br />
 <p align="center">
-  <h3 align="center">Lindenmayer</h3>
-  <p align="center"> Data Structure Course Project #1 </p>
+  <h3 align="center">Common Ancestors</h3>
+  <p align="center"> Data Structure Course Project #2 </p>
 </p>
 
 
@@ -16,7 +16,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Competences</a></li>
+        <li><a href="#competences">Competences</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -29,12 +29,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+In this course project we study genetic inheritance in a human population by simulation. In particular, we develop a platform to simulate random events (birth, coupling, death) in the lives of a population of sims, and we examine the coalescence of ancestral lineages.
+
 <p align="center">
-  <a> <img src="lindenmayer-tree.png" alt="Demo"> </a>
+  <a> <img src="output.png" alt="Output"> </a>
 </p>
-
-
-We want to implement a program that draws random graphics using a Lindenmayer or L-system. Among other things, we want to produce drawings that look like plants (possible application: landscape graphic output). The L-system was invented for this purpose: it allows to model the development of plant structures. It is a formal grammar that defines the generation of symbol strings on an alphabet. The symbols correspond to structural units of the plant (branches), and the resulting chain defines the structure to be drawn.
 
 ### Competences
 
