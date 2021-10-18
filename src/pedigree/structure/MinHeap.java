@@ -7,8 +7,7 @@ import java.util.Arrays;
  *
  * @param <T> Parametric type. Will be either Sim, PA, or Event class
  *
- * @author Sandrine Bédard and Robin Legault from Github
- * modified by Maël LE PETIT
+ * @author Maël LE PETIT
  */
 public class MinHeap<T extends Comparable<? super T>> {
     private int size;
@@ -189,9 +188,8 @@ public class MinHeap<T extends Comparable<? super T>> {
      * @return the deleted item
      */
     public T delete() {
-        if (size == 0) {
+        if (size == 0)
             throw new java.lang.IllegalStateException("Empty Heap");
-        }
 
         T root = array[0];
 
@@ -201,9 +199,7 @@ public class MinHeap<T extends Comparable<? super T>> {
         sink(0);
 
         // Check if need to reduce array
-        if (size < array.length / 3) {
-            this.reSize(0.5);
-        }
+        if (size < array.length / 3) this.reSize(0.5);
         return root;
     }
 
