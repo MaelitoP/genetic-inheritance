@@ -5,8 +5,7 @@ package pedigree.structure;
  *
  * @param <T> Parametric type. Will be either Sim, PA, or Event class
  *
- * @author Sandrine Bédard and Robin Legault from Github
- * modified by Maël LE PETIT
+ * @author Maël LE PETIT
  */
 public class MaxHeap<T extends Comparable<? super T>> {
     private int size;
@@ -76,23 +75,16 @@ public class MaxHeap<T extends Comparable<? super T>> {
     }
 
     public int lesser(int parent) {
-
-        if (parent * childNbr + 1 >= size) {
-            return 0;
-        }
+        if (parent * childNbr + 1 >= size) return 0;
 
         // Search through all the children for the target (min or max) value
         int firstChild = parent * childNbr + 1;
         int targetChild = firstChild;
 
         for (int j = 1; j < childNbr; j++) {
-            if (firstChild + j >= size) {
-                break;
-            }
+            if (firstChild + j >= size) break;
             // If found a new min/max
-            if (higher(targetChild, firstChild + j)) {
-                targetChild = firstChild + j;
-            }
+            if (higher(targetChild, firstChild + j)) targetChild = firstChild + j;
         }
 
         return targetChild;
@@ -112,9 +104,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
             if (higher(parent,i)) {
                 swap(i, parent);
                 i = parent;
-            } else {
-                break;
-            }
+            } else break;
         }
     }
 
@@ -133,9 +123,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
             if (child != 0 && (higher(i,child))) {
                 swap(child, i);
                 i = child;
-            } else {
-                break;
-            }
+            } else break;
         }
     }
 
@@ -172,9 +160,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
         --size;
         sink(0);
 
-        if (size < array.length / 3) {
-            this.reSize(0.5);
-        }
+        if (size < array.length / 3) this.reSize(0.5);
         return root;
     }
 
