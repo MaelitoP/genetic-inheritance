@@ -11,7 +11,6 @@ import java.util.TreeMap;
 /**
  * Projet 2 - IFT2015
  * Maël LE PETIT
- * Seyed Ahmad Farsad
  */
 public class Main {
     public static void main(String[] args) {
@@ -39,7 +38,6 @@ public class Main {
 
         // Report
         System.out.println("\n--------- Authors ---------\n");
-        System.out.println("-> Seyed Ahmad Farsad (20031258)");
         System.out.println("-> Maël LE PETIT (20143452)");
         System.out.println("\n---------------------------\n");
 
